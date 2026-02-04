@@ -1,4 +1,4 @@
-# network-analysis-organoid-imaging
+# Network-analysis-organoid-imaging
 # Matlab and R code for Osaki et al. Nature Communication (2025)
 
 Repository for the code that was used to process and analyze data collected for 
