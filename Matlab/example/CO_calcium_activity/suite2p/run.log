@@ -1,0 +1,62 @@
+
+ >>>>> started run at 25/10/2022 23:18:08{'data_path': ['C:/Users/Tatsuya/Matlab/Ca_imaging/Raw_data/20221018/RTT-cortical_orgnaoid_#4_3month_sp'], 'subfolders': [], 'save_path0': 'C:/Users/Tatsuya/Matlab/Ca_imaging/Raw_data/20221018/RTT-cortical_orgnaoid_#4_3month_sp', 'fast_disk': 'C:/Users/Tatsuya/Matlab/Ca_imaging/Raw_data/20221018/RTT-cortical_orgnaoid_#4_3month_sp', 'input_format': 'tif'}
+tif
+** Found 1 tifs - converting to binary **
+time 0.38 sec. Wrote 120 frames per binary for 1 planes
+>>>>>>>>>>>>>>>>>>>>> PLANE 0 <<<<<<<<<<<<<<<<<<<<<<
+WARNING: number of frames is below 200, unpredictable behaviors may occur.
+NOTE: not registered / registration forced with ops['do_registration']>1
+      (no previous offsets to delete)
+NOTE: applying default C:\Users\Tatsuya\.suite2p\classifiers\classifier_user.npy
+----------- REGISTRATION
+Reference frame, 4.58 sec.
+Registered 120/120 in 2.51s
+----------- Total 13.62 sec
+----------- ROI DETECTION
+Binning movie in chunks of length 05
+Binned movie of size [24,492,500] created in 0.13 sec.
+>>>> CELLPOSE finding masks in mean_img
+!NOTE! diameter set to 0 or None, diameter will be estimated by cellpose
+>>>> 25 masks detected, median diameter = 28.32 
+Detected 25 ROIs, 2.35 sec
+After removing overlaps, 25 ROIs remain
+----------- Total 5.16 sec.
+----------- EXTRACTION
+Masks created, 2.47 sec.
+Extracted fluorescence from 25 ROIs in 120 frames, 4.74 sec.
+----------- Total 7.21 sec.
+----------- CLASSIFICATION
+['skew', 'npix_norm', 'compact']
+----------- SPIKE DECONVOLUTION
+----------- Total 0.00 sec.
+Plane 0 processed in 26.12 sec (can open in GUI).
+total = 26.52 sec.
+TOTAL RUNTIME 26.52 sec
+
+ >>>>> started run at 29/10/2022 05:27:17{'data_path': ['C:/Users/Tatsuya/Matlab/Ca2+_imaging/Raw_data/20221018/RTT-cortical_orgnaoid_#4_3month_sp'], 'subfolders': [], 'save_path0': 'C:/Users/Tatsuya/Matlab/Ca2+_imaging/Raw_data/20221018/RTT-cortical_orgnaoid_#4_3month_sp', 'fast_disk': 'C:/Users/Tatsuya/Matlab/Ca2+_imaging/Raw_data/20221018/RTT-cortical_orgnaoid_#4_3month_sp', 'input_format': 'tif'}
+FOUND BINARIES AND OPS IN ['C:/Users/Tatsuya/Matlab/Ca2+_imaging/Raw_data/20221018/RTT-cortical_orgnaoid_#4_3month_sp\\suite2p\\plane0\\ops.npy']
+>>>>>>>>>>>>>>>>>>>>> PLANE 0 <<<<<<<<<<<<<<<<<<<<<<
+WARNING: number of frames is below 200, unpredictable behaviors may occur.
+NOTE: not running registration, plane already registered
+binary path: C:/Users/Tatsuya/Matlab/Ca2+_imaging/Raw_data/20221018/RTT-cortical_orgnaoid_#4_3month_sp\suite2p\plane0\data.bin
+NOTE: applying default C:\Users\Tatsuya\.suite2p\classifiers\classifier_user.npy
+----------- ROI DETECTION
+Binning movie in chunks of length 05
+Binned movie of size [24,492,500] created in 0.21 sec.
+>>>> CELLPOSE finding masks in mean_img
+!NOTE! diameter set to 0 or None, diameter will be estimated by cellpose
+>>>> 25 masks detected, median diameter = 28.32 
+Detected 25 ROIs, 2.52 sec
+After removing overlaps, 25 ROIs remain
+----------- Total 5.60 sec.
+----------- EXTRACTION
+Masks created, 2.47 sec.
+Extracted fluorescence from 25 ROIs in 120 frames, 4.84 sec.
+----------- Total 7.33 sec.
+----------- CLASSIFICATION
+['compact', 'npix_norm', 'skew']
+----------- SPIKE DECONVOLUTION
+----------- Total 0.00 sec.
+Plane 0 processed in 13.05 sec (can open in GUI).
+total = 13.27 sec.
+TOTAL RUNTIME 13.27 sec
