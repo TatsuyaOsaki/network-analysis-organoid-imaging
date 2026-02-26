@@ -1,5 +1,5 @@
 # Network-analysis-organoid-imaging
-# Matlab and R code for Osaki et al. Nature Communication (2025)
+# Matlab and R code for Osaki et al. Nature Communications (2026)
 
 Repository for the code that was used to process and analyze data collected for 
 "Early differential impact of MeCP2 mutations on functional networks in Rett syndrome patient-derived human cortical organoids", Osaki et al. Nature Communications (2026)
